@@ -6,7 +6,7 @@ def map(source_array)
   map_array
 end
 
-def reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_point = 0)
   output = starting_point
   source_array.each { |index|
     output = output + yield(index)
