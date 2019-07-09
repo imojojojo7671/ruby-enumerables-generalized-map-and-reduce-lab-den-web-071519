@@ -6,6 +6,6 @@ def map(source_array)
   map_array
 end
 
-map(source_array) do |innards|
+map(source_array) do
   map_array << source_array[index] *-1
 end
