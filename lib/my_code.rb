@@ -1,5 +1,5 @@
 def map(source_array)
-  map = []
+  map_array = []
   source_array.length.times { |index|
     map_array << yield
   }
