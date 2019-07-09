@@ -6,6 +6,6 @@ def map(source_array)
   map_array
 end
 
-map() do |n|
+map(source_array[index]) do |n|
   source_array[index] * -1
 end
