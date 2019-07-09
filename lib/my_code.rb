@@ -6,6 +6,4 @@ def map(source_array)
   map_array
 end
 
-#map(source_array[index]) do |n|
-#  source_array[index] * -1
-#end
+def reduce(source_array, starting_point = nil)
