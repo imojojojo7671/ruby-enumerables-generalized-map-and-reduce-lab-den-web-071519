@@ -6,6 +6,6 @@ def map(source_array)
   map_array
 end
 
-map() do
+map(source_array) do
   source_array[index] * -1
 end
