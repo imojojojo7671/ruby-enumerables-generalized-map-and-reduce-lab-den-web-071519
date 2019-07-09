@@ -9,4 +9,3 @@ end
 #map(source_array[index]) do |n|
 #  source_array[index] * -1
 #end
-
